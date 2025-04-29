@@ -1,0 +1,162 @@
+/* 1. Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* 2. Header and Navigation */
+header {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00c3ff;
+}
+
+/* 3. Hero Section */
+.hero {
+  background: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url('https://images.unsplash.com/photo-1569025692231-2b5013e8b145?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') 
+    center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 2rem;
+}
+
+.hero h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  max-width: 600px;
+}
+
+/* 4. Section Titles */
+section h2 {
+  text-align: center;
+  margin: 3rem 0 2rem;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+/* 5. Module and Card Layout */
+.module {
+  background: #fff;
+  margin: 1.5rem auto;
+  padding: 2rem;
+  max-width: 1100px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.module:hover {
+  transform: translateY(-5px);
+}
+
+/* Card inside module */
+.card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-image img {
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card-text h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.card-text p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* 6. Quiz Style */
+.quiz {
+  margin-top: 2rem;
+}
+
+.quiz p {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.quiz select {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.result {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* 7. Resources and About Section */
+#resources ul, #about {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#resources ul li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+/* 8. Footer */
+footer {
+  background: #203a43;
+  color
