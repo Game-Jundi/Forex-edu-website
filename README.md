@@ -11,8 +11,7 @@ Built with HTML, CSS, and JavaScript — featuring learning modules, quizzes, an
 ## 🔗 Live Demo
 
 Visit the live site here:  
-**[https://Game-Jundi.github.io/forex-edu-site](https://Game-Jundi.github.io/forex-edu-site)**  
-
+https://game-jundi.github.io/Forex-edu-website/
 
 ## 📚 Features
 
