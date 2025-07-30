@@ -61,6 +61,8 @@ const scrollObserver = new IntersectionObserver((entries) => {
       scrollObserver.unobserve(entry.target);
     }
   });
-});
+}); 
+
+
 
 
