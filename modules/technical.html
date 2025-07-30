@@ -3,39 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Technical Analysis</title>
+  <title>Technical Analysis – Forex Learning Hub</title>
   <link rel="stylesheet" href="../styles.css" />
+  <script src="../script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Technical Analysis</h1>
-  </header>
-    <a href="../index.html" style="color: #00c3ff; text-decoration: none;">← Back to Home</a>
-  
-<main class="module">
-  <div class="card-image">
-    <img src="image.FOREX\images.jpg" alt="Chart example" />
-  </div>
-  <div class="card-text">
 
-    <div class="module card scroll-hidden">
-      <div class="card-image">
-        <img src="image.FOREX\4tech.jpg" alt="Technical Analysis" />
-      </div>
-      <div class="card-text">
-       <h3>What Is Technical Analysis:></h3>
-      </div>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../index.html"><img src="image.FOREX/forexLogo.png" alt="Logo" class="logo"></a>
+      <h1>Forex Learning Hub</h1>
     </div>
-    <p> 
+  </header>
+
+  <section class="container">
+  <p><a href="../index.html"><h3>← Back to Home</h3></a></p>
+<div class="image-gallery">
+  <div class="gallery-item">
+    <img src="image.FOREX\4tech.jpg" alt="Technical Analysis" />
+  </div>
+
+   <p> 
       <h2>Technical Analysis</h2>
      is the study of price movements using charts and indicators. 
       Traders use tools like RSI, MACD, trend lines, and candlestick patterns to forecast potential price behavior.
       or in other ways Technical analysis for trading studies the price of an asset such as a f
       orex pair using historical price charts and market statistics. It is rooted in the notion that if you can identify previous market patterns,
-      you can form a fairly accurate prediction of future price action.
+      you can form a fairly accurate prediction of future price action.<br>
     2. Trend In Terms of Technical Analysis
     Trend represents one of the most essential concepts in technical analysis. All the tools that an analyst uses have a single purpose: help to identify the market trend. The expressions like “trend is your friend” or “Never buck the trend” are not used accidentally. The meaning they contain is more than deeper. So, it is worth properly understanding what the trend is and what type of trend is possible to differentiate.
-
+</p>
+<br>
 3. Chart Construction
 In technical analysis a chart is a graphical representation of price movements over a certain time frame. It can show security’s price movement over a month or a year period.
 
@@ -52,13 +50,47 @@ Price moves in trends: Technical analysis assumes that once a trend is establish
 History repeats itself: This premise suggests that past price movements and chart patterns tend to repeat in the future due to human psychology and market participants' behavior. Certain chart patterns are used to analyze market movements and predict future price movements. 
 Technical analysis is different from fundamental analysis, which focuses on studying the underlying factors that influence market direction. Fundamentalists try to understand the "why" behind price movements, while technicians focus on the "what" by studying price patterns and technical indicator
 </p> 
-<img src="image.FOREX\tech.jpg" alt="Chart example"/>
-  </div>
-</main>
-<section class="module">
-<h1>practical quiz</h1>
-    <div class="quiz 1">
-      <p><strong>Quiz:</strong> What is the goal of technical analysis?</p>
+<div class="gallery-item">
+   <h3>📊 Visual Examples</h3>
+  <img src="image.FOREX\tech.jpg" alt="Chart example"/>
+</div>
+
+    <p>
+      By learning how to read price behavior, trends, and reversal signals, you can develop a strategy that suits your trading goals.
+    </p>
+    <div class="gallery-item">
+  <img src="image.FOREX\3tech.png" alt="Chart example" />
+    </div>
+    <hr />
+ </br> 
+    <h3>Interactive Quiz</h3>
+
+    <!-- Quiz 1 -->
+    <div class="quiz">
+      <p><strong>Quiz 1:</strong> What is the main goal of technical analysis?</p>
+      <select onchange="submitAnswer(this, 'tech-1')">
+        <option value="">Choose an answer</option>
+        <option value="correct">To forecast price trends using charts and indicators</option>
+        <option value="wrong">To read financial news headlines</option>
+        <option value="wrong">To manage taxes</option>
+      </select>
+      <p id="result-tech-1" class="result"></p>
+    </div>
+ </br> 
+    <!-- Quiz 2 -->
+    <div class="quiz">
+      <p><strong>Quiz 2:</strong> Which of the following is a common technical indicator?</p>
+      <select onchange="submitAnswer(this, 'tech-2')">
+        <option value="">Choose an answer</option>
+        <option value="wrong">GDP forecast</option>
+        <option value="wrong">Inflation score</option>
+        <option value="correct">Relative Strength Index (RSI)</option>
+      </select>
+      <p id="result-tech-2" class="result"></p>
+    </div>
+    </br> 
+     <div class="quiz 3">
+      <p><strong>Quiz 3:</strong> which one is true about technical analysis?</p>
       <select onchange="submitAnswer(this, '1')">
         <option value="">Choose an answer</option>
         <option value="correct">To analyze past prices and predict trends</option>
@@ -68,8 +100,9 @@ Technical analysis is different from fundamental analysis, which focuses on stud
       <p id="result-1" class="result"></p>
       <script src="../script.js"></script>
     </div>
-    <div class="quiz 2">
-        <p><strong>Quiz 1:</strong> What is the main purpose of technical analysis?</p>
+    </br> 
+    <div class="quiz 4">
+        <p><strong>Quiz 4:</strong> What is the main purpose of technical analysis?</p>
         <select onchange="submitAnswer(this, '2-1')">
           <option value="">Choose an answer</option>
           <option value="wrong">To analyze bank profits</option>
@@ -79,8 +112,9 @@ Technical analysis is different from fundamental analysis, which focuses on stud
         <p id="result-2-1" class="result"></p>
         <script src="../script.js"></script>
     </div>
+     </br> 
     <div class="quiz">
-        <p><strong>Quiz 3:</strong> Which of the following is a common technical analysis tool?</p>
+        <p><strong>Quiz 5:</strong> Which of the following is a common technical analysis tool?</p>
         <select onchange="submitAnswer(this, '2-2')">
           <option value="">Choose an answer</option>
           <option value="wrong">A tax calculator</option>
@@ -89,8 +123,13 @@ Technical analysis is different from fundamental analysis, which focuses on stud
         </select>
         <p id="result-2-2" class="result"></p>
        </div>
-      </section>
-  <img src="image.FOREX\3tech.png" alt="Chart example" />
-  <script src="../script.js"></script>
+ </br> 
+    
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Forex Learning Hub. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
 </body>
 </html>

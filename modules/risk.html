@@ -3,15 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title> Risk Management</title>
+  <title>Risk Management – Forex Learning Hub</title>
   <link rel="stylesheet" href="../styles.css" />
+  <script src="../script.js" defer></script>
 </head>
 <body>
-  
-  <a href="../index.html">← Back to Home</a>
+
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../index.html"><img src="image.FOREX/forexLogo.png" alt="Logo" class="logo"></a>
+      <h1>Forex Learning Hub</h1>
+    </div>
+  </header>
+
+  <section class="container">
+     <div class="image-gallery">
+    <div class="gallery-item">
+    <a href="../index.html"><h3>← Back to Home</h3></a>
   <h1>4. Risk Management</h1>
   <img src="image.FOREX\risk3 (1).jfif" alt="Chart example" width="200pt"/>
-
+    </div>
   <div class="module">
     
     <p>
@@ -30,8 +41,13 @@
         Monitoring Market Conditions: Regularly monitor market news and events that can affect currency values. 
         Automated Trading: Consider using automated trading platforms with built-in risk management features. 
         Seeking Professional Advice: Consider consulting with a financial advisor for personalized risk management guidance. 
-    </br> <img src="image.FOREX\risk2(1).jfif" alt="Chart example"width="50%"/>
-        
+    
+        <h3>📊 Visual Examples</h3>
+<div class="image-gallery">
+  <div class="gallery-item">
+      </br> <img src="image.FOREX\risk2(1).jfif" alt="Chart example"width="50%"/>
+  </div>
+</div>
 </br> Examples of risk management strategies:
         The 2% Rule: The CME Group suggests risking no more than 2% of a trader's capital on any single trade. 
         Diversification: Spreading trades across different currency pairs and asset classes can help reduce risk. 
@@ -45,9 +61,35 @@
 
       
     <img src="image.FOREX\risk(1).png"  alt="Chart example" width="100%"/>
-</br>
+
+    <hr />
+ </br> 
+    <h3>Interactive Quiz</h3>
+
     <div class="quiz">
-      <p><strong>Quiz 1:</strong> What is the main goal of risk management?</p>
+      <p><strong>Quiz 1:</strong> What tool limits your losses on a trade?</p>
+      <select onchange="submitAnswer(this, 'risk-1')">
+        <option value="">Choose an answer</option>
+        <option value="correct">Stop-loss order</option>
+        <option value="wrong">Add-to-cart button</option>
+        <option value="wrong">Google Translate</option>
+      </select>
+      <p id="result-risk-1" class="result"></p>
+    </div>
+ </br> 
+    <div class="quiz">
+      <p><strong>Quiz 2:</strong> How much risk is usually advised per trade?</p>
+      <select onchange="submitAnswer(this, 'risk-2')">
+        <option value="">Choose an answer</option>
+        <option value="wrong">50%</option>
+        <option value="correct">1% to 2%</option>
+        <option value="wrong">All-in every time</option>
+      </select>
+      <p id="result-risk-2" class="result"></p>
+    </div>
+ </br> 
+<div class="quiz">
+      <p><strong>Quiz 3:</strong> What is the main goal of risk management?</p>
       <select onchange="submitAnswer(this, '3-1')">
         <option value="">Choose an answer</option>
         <option value="correct">To protect trading capital</option>
@@ -60,7 +102,7 @@
   
 </br>
     <div class="quiz">
-      <p><strong>Quiz 2:</strong> What tool helps you limit your loss automatically?</p>
+      <p><strong>Quiz 4:</strong> What tool helps you limit your loss automatically?</p>
       <select onchange="submitAnswer(this, '3-2')">
         <option value="">Choose an answer</option>
         <option value="correct">Stop-loss order</option>
@@ -72,7 +114,7 @@
     </div>
 </br>
     <div class="quiz">
-      <p><strong>Quiz 3:</strong> How much of your account should you risk per trade?</p>
+      <p><strong>Quiz 5:</strong> How much of your account should you risk per trade?</p>
       <select onchange="submitAnswer(this, '3-3')">
         <option value="">Choose an answer</option>
         <option value="wrong">25%</option>
@@ -85,7 +127,7 @@
 </br>
   
     <div class="quiz">
-      <p><strong>Quiz 4:</strong> What happens if you use high leverage without risk control?</p>
+      <p><strong>Quiz 6:</strong> What happens if you use high leverage without risk control?</p>
       <select onchange="submitAnswer(this, '3-4')">
         <option value="">Choose an answer</option>
         <option value="correct">You could lose your account quickly</option>
@@ -95,7 +137,12 @@
       <p id="result-3-4" class="result"></p>
       <script src="../script.js"></script>
     </div>
-  </div>
+  </br> 
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Forex Learning Hub. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
 </body>
 </html>
-  

@@ -5,101 +5,96 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Forex Learning Hub</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
- 
-  <header>
-<h1>Forex Learning Hub</h1>
+
+  <header class="site-header">
+    <div class="header-container">
+      <img src="image.FOREX/forexLogo.png" alt="Forex Logo" class="logo" />
+      <h1>Forex Learning Hub</h1>
+    </div>
     <nav>
-      <ul>
+      <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#modules">Modules</a></li>
         <li><a href="#resources">Resources</a></li>
         <li><a href="#about">About</a></li>
       </ul>
-      <h1>Game F Tech Education </h1>
     </nav>
   </header>
- <section id="home" class="hero">
-    <h2>Start Your Forex Trading Journey</h2>
-    <p>Learn the basics of Forex trading through easy articles and visual learning.</p>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Start Your Forex Trading Journey</h2>
+      <p>Learn the basics of Forex trading through simple modules, charts, and quizzes.</p>
+      <img src="image.FOREX/hero.png" alt="Trading Hero" class="responsive-img">
+    </div>
   </section>
 
-  <section id="modules">
+  <section id="modules" class="container">
     <h2>Learning Modules</h2>
-
-    <div class="module">
-        <h3><a href="modules/basics.html">1.Basics of Forex Trading </a></h3>
-        <p>Click to read basics Introduction of Forex trading.</p>
+    <div class="modules-grid">
+      <div class="module-card">
+        <img src="image.FOREX/pair.jpg" alt="Basics" class="module-img">
+        <h3><a href="modules/basics.html">1. Basics of Forex</a></h3>
+        <p>Understand currency pairs, pips, and how trading works.</p>
       </div>
-  
-    <div class="module">
-      
-      <h3><a href="modules/technical.html">2. Technical Analysis</a></h3>
-      <p>Click to learn how to read charts and indicators.</p>
-    </div>
-  
-    <div class="module">
-      <h3><a href="modules/fundamental.html">3. Fundamental Analysis</a></h3>
-      <p>click here Understand economic news and its effect on currencies.</p>
-    </div>
-  
-    <div class="module">
-      <h3><a href="modules/risk.html">4. Risk Management</a></h3>
-      <p>Learn to protect your capital with smart risk strategies.</p>
-    </div>
-  
-    <div class="module">
-      <h3><a href="modules/psychology.html">5. Trading Psychology</a></h3>
-      <p>Develop the mindset for consistent, disciplined trading.</p>
-      <div class="module card scroll-hidden">
-        <div class="card-image">
-          <img src="image.FOREX\motiv.jpg" alt="Technical Analysis" />
-        </div>
-        <div class="card-text">
-         <h3>Your Trading Is Going To Pay Off Sooner Than You Think Be Patient</h3>
-        </div>
+      <div class="module-card">
+        <img src="image.FOREX/analysis.jfif" alt="Technical" class="module-img">
+        <h3><a href="modules/technical.html">2. Technical Analysis</a></h3>
+        <p>Use charts and indicators to analyze price action.</p>
       </div>
+      <div class="module-card">
+        <img src="image.FOREX/economy.jfif" alt="Fundamental" class="module-img">
+        <h3><a href="modules/fundamental.html">3. Fundamental Analysis</a></h3>
+        <p>Learn how economic news impacts markets.</p>
+      </div>
+      <div class="module-card">
+        <img src="image.FOREX/RiskM.jfif" alt="Risk Management" class="module-img">
+        <h3><a href="modules/risk.html">4. Risk Management</a></h3>
+        <p>Protect your capital with smart strategies.</p>
+      </div>
+       </br> 
+      <div class="module-card">
+        <img src="image.FOREX/psychology.jfif" alt="Psychology" class="module-img">
+        <h3><a href="modules/psychology.html">5. Trading Psychology</a></h3>
+        <p>Master your trading mindset and discipline.</p>
+      </div>
+       </br>
+        
     </div>
-    
+     
   </section>
-  <section id="resources">
+
+  <section id="resources" class="container">
     <h2>Extra Resources</h2>
-      <ul>
-        <li><a href="file/Forex-guide.pdf" target="_blank">View Beginner Forex Guide PDF</a></li>
-        <li><a href="https://www.dailyfx.com" target="_blank" rel="noopener">📊 DailyFX (Forex News Site & Analysis)</a></li>
-        <li><a href="#">Video Tutorials (coming soon)</a></li>
-      <img src="image.FOREX\photo_2025-04-26_01-54-36.jpg" alt="Currency pair example" style="max-width:100%; background-color: blueviolet;
-    background-attachment: fixed; background-image: red; line-height: 3px;  />
- </ul>
+    <ul class="resource-links">
+      <li><a href="file/Forex-guide.pdf" download>📄 Download Beginner Forex Guide (PDF)</a></li>
+      <li><a href="https://www.forexfactory.com" target="_blank">🌍 Forex Factory – Live News</a></li>
+      <li><a href="https://www.babypips.com/news" target="_blank">📢 BabyPips – Forex News</a></li>
+     <li><a href="https://www.dailyfx.com" target="_blank" rel="noopener">📊 DailyFX (Forex News Site & Analysis)</a></li>
+      <li><a href="#">📺Video Tutorials (coming soon)</a></li>
+    </ul>
   </section>
-
-  <section id="about">
-  <h2>About This Site</h2>
-  <p>
-    <strong>Forex Learning Hub</strong> is an educational website built for beginners who want to learn the fundamentals of Forex trading.
+ </br> 
+  <section id="about" class="container">
+    <h2>About This Site</h2>
+    <p>
+       <strong>Forex Learning Hub</strong> is an educational website built for beginners who want to learn the fundamentals of Forex trading.
     It includes step-by-step modules, interactive quizzes, and free resources to help you start your trading journey.
+    Designed and developed by Gamechu Jundi, a 4th-year CS student @ Jimma University.
   </p>
   <p>
     The website is created and maintained by <strong>Gamechu Jundi</strong>, a 4th-year Computer Science student at Jimma University.
     Passionate about web development, trading, and teaching digital skills to beginners.
   </p>
 
-  <h3>Connect With Me</h3>
-  <ul class="social-links">
-      <li><a href="https://facebook.com/gamme.jundii" target="_blank">📘 Facebook</a></li>
-      <li><a href="https://instagram.com/feenetgame" target="_blank">📸 Instagram</a></li>
-      <li><a href="https://twitter.com/FeenetG" target="_blank">🐦 X (Twitter)</a></li>
-      <li><a href="https://youtube.com/@FeenetGame" target="_blank">📺 YouTube Channel</a></li>
-  </ul>
-</section>
-
+  
+  </section>
+ </br> 
   <footer>
-    <p>&copy; 2025 Forex Learning Hub. All rights reserved.</p>
+    <p>&copy; 2025 Forex Learning Hub. Built with HTML, CSS, and JavaScript.</p>
   </footer>
-</br>
-  <script src="script.js"></script>
+
 </body>
-</br>
 </html>

@@ -3,18 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>fundamental analysis</title>
+  <title>Fundamental Analysis – Forex Learning Hub</title>
   <link rel="stylesheet" href="../styles.css" />
+  <script src="../script.js" defer></script>
 </head>
 <body>
-  
-    <h1>fundamental analysis</h1>
-    <a href="../index.html">← Back to Home</a>
-    
-<main class="module">
-  <div class="card-image">
-    <img src="image.FOREX\2funda.png" alt="Chart example" width="100%"/>
-      <div class="card-tax">
+
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../index.html"><img src="image.FOREX/forexLogo.png" alt="Logo" class="logo"></a>
+      <h1>Forex Learning Hub</h1>
+    </div>
+  </header>
+
+  <section class="container">
+      <p><a href="../index.html"><h3>← Back to Home</h3></a></p>
+    <h2>Fundamental Analysis</h2>
+     <div class="image-gallery">
+  <div class="gallery-item">
+     <img src="image.FOREX\2funda.png" alt="Chart example" width="100%"/>
+  </div>
     <p>
       <h3>  What is fundamental analysis in trading?</h3>
         There are many different types of investing analysis.
@@ -34,40 +42,88 @@ Some traders prefer only to trade the technicals ﹣ they may refer to fundament
   Similarly, some traders who prefer fundamental analysis will only trade off big decisions made by banks and 
   governments or events stemming from natural disasters.
     </p>
+    <h3>📊 Visual Examples</h3>
+  <div class="gallery-item">
     <img src="image.FOREX\images.png" alt="Chart example" />
-      </div>
-    </main>
-    <section class="module">
-      <h3>practice quiz</h3>
+  </div>
+  </div>
+    <hr />
+ </br> 
+    <h3>Interactive Quiz</h3>
+
     <div class="quiz">
-      <p><strong>Quiz 1:</strong> What type of news is important for fundamental analysis?</p>
-      <select onchange="submitAnswer(this, '3')">
+      <p><strong>Quiz 1:</strong> Which event most affects Forex through fundamentals?</p>
+      <select onchange="submitAnswer(this, 'fund-1')">
         <option value="">Choose an answer</option>
-        <option value="correct">Economic news and interest rate updates</option>
-        <option value="wrong">Celebrity gossip</option>
-        <option value="wrong">Gaming reviews</option>
+        <option value="correct">Interest rate decisions</option>
+        <option value="wrong">Laptop launches</option>
+        <option value="wrong">Movie reviews</option>
       </select>
-      <p id="result-3" class="result"></p>
-      <script src="../script.js"></script>
-    </div> </br>
-    <div class="quiz"> <p><strong>Quiz 2:</strong> What is fundamental analysis used for in Forex?</p> 
-        <select onchange="submitAnswer(this, '3-1')"> 
-        <option value="">Choose an answer</option> <option value="correct">To study economic data and news to understand currency movements</option> 
-        <option value="wrong">To draw trend lines on a chart</option> 
-        <option value="wrong">To calculate tax on profits</option> 
-       </select> <p id="result-3-1" class="result"></p> </div>
-       <script src="../script.js"></script>
-   </div></br>
-   <div class="quiz"> <p><strong>Quiz 3:</strong> Why do traders follow employment data?</p> 
-    <select onchange="submitAnswer(this, '3-3')"> 
-    <option value="">Choose an answer</option> 
-    <option value="correct">It reflects the strength of a country's economy</option>
-     <option value="wrong">It shows the number of brokers available</option> 
-     <option value="wrong">It tells how many traders quit trading</option> 
-</select> <p id="result-3-3" class="result"></p>
-<script src="../script.js"></script>
-</section
-  </br>
-</div>
+      <p id="result-fund-1" class="result"></p>
+    </div>
+   </br> 
+    <div class="quiz">
+      <p><strong>Quiz 2:</strong> What is the focus of fundamental analysis?</p>
+      <select onchange="submitAnswer(this, 'fund-2')">
+        <option value="">Choose an answer</option>
+        <option value="wrong">Chart patterns only</option>
+        <option value="correct">Economic and political events</option>
+        <option value="wrong">Browser settings</option>
+      </select>
+      <p id="result-fund-2" class="result"></p>
+    </div>
+  </br> 
+  <div class="quiz">
+          <p><strong>Quiz3:</strong> What does a currency pair like EUR/USD repesent?</p>
+          <select onchange="submitAnswer(this, '1')">
+            <option value="">Choose an answer</option>
+            <option value="wrong">The price of gold in Europe</option>
+            <option value="correct">The exchange rate between Euro and US Dollar</option>
+            <option value="wrong">A type of crypto coin</option>
+          </select>
+          <p id="result-1" class="result"></p>
+          <script src="../script.js"></script>
+        </div>
+     </br> 
+        <div class="quiz">
+            <p><strong>Quiz 4:</strong> What is a currency pair in Forex?</p>
+            <select onchange="submitAnswer(this, '1-1')">
+              <option value="">Choose an answer</option>
+              <option value="wrong">A pair of shoes</option>
+              <option value="wrong">A crypto wallet</option>
+              <option value="correct">The value of one currency compared to another</option>
+            </select>
+            <p id="result-1-1" class="result"></p>
+            <script src="../script.js"></script>
+          </div>
+   </br> 
+           <div class="quiz">
+            <p><strong>Quiz 5:</strong> What is a “pip” in Forex trading?</p>
+            <select onchange="submitAnswer(this, '1-2')">
+              <option value="">Choose an answer</option>
+              <option value="wrong">A type of fruit</option>
+              <option value="correct">The smallest change in price of a currency pair</option>
+              <option value="wrong">A stock option</option>
+            </select>
+            <p id="result-1-2" class="result"></p>
+            <script src="../script.js"></script>
+          </div>
+     </br> 
+          <div class="quiz">
+            <p><strong>Quiz 6:</strong> What does the “spread” refer to in Forex?</p>
+            <select onchange="submitAnswer(this, '1-3')">
+              <option value="">Choose an answer</option>
+              <option value="wrong">The size of a trade</option>
+              <option value="correct">The difference between the bid and ask price</option>
+              <option value="wrong">The leverage level</option>
+            </select>
+            <p id="result-1-3" class="result"></p>
+            <script src="../script.js"></script>
+           </div>
+      </br> 
+  <footer>
+    <p>&copy; 2025 Forex Learning Hub. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
 </body>
- </html> 
+</html>
